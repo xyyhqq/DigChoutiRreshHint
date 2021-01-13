@@ -34,14 +34,14 @@ namespace DigChoutiRreshHint
             }
             byte[] buffer = Encoding.UTF8.GetBytes(stringBuilder.ToString());
             var path = $"{AppDomain.CurrentDomain.BaseDirectory}抽屉下拉提示RreshHint.txt";
-            using (FileStream fs = new FileStream(path, FileMode.OpenOrCreate, FileAccess.Write))
+            using (FileStream fs = new FileStream(path, FileMode.Create, FileAccess.Write))
             {
                 fs.Write(buffer);
             }
 
             byte[] bufferPure = Encoding.UTF8.GetBytes(stringBuilderNoidNoTime.ToString());
             var path2 = $"{AppDomain.CurrentDomain.BaseDirectory}抽屉下拉提示无id无时间.txt";
-            using (FileStream fs = new FileStream(path2, FileMode.OpenOrCreate, FileAccess.Write))
+            using (FileStream fs = new FileStream(path2, FileMode.Create, FileAccess.Write))
             {
                 fs.Write(bufferPure);
             }
