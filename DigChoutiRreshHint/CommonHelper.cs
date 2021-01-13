@@ -14,7 +14,7 @@ namespace DigChoutiRreshHint
             HttpClient httpClient = new HttpClient();
             httpClient.DefaultRequestHeaders.Add("User-Agent", "Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/84.0.4147.105 Safari/537.36");
 
-            var response = await httpClient.GetAsync("https://api.chouti.com/api/refreshHintsList.json");
+            var response = await httpClient.PostAsync("https://api.chouti.com/api/refreshHintsList.json",null);
             string realMessage = await response.Content.ReadAsStringAsync();
             ChoutTiMessageBase choutTiMessageBase = JsonConvert.DeserializeObject<ChoutTiMessageBase>(realMessage);
             StringBuilder stringBuilder = new StringBuilder();
