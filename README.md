@@ -3,7 +3,7 @@
 yo bitch
 大多数人所成为的，并非是他们想成为的人，而是不得不成为的人。
 Everybody's gotta die sometime, Red.
-
+'''
 偷鸡吧 偷鸡吧 新时代的东芝
 被误解是表达者的宿命
 选择敌人时，越小心越好。
@@ -67,3 +67,4 @@ Everybody's gotta die sometime, Red.
 奇变偶不变，符号看象限
 性盛致灾，割以永治
 有鬼有鬼，撮盐入水，太上老君，急急如律令，敕
+'''
