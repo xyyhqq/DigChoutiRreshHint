@@ -1,9 +1,9 @@
 # DigChoutiRreshHint
 抽屉网下拉提示文字信息收集
-yo bitch
+例:
+```
 大多数人所成为的，并非是他们想成为的人，而是不得不成为的人。
 Everybody's gotta die sometime, Red.
-```
 偷鸡吧 偷鸡吧 新时代的东芝
 被误解是表达者的宿命
 选择敌人时，越小心越好。
